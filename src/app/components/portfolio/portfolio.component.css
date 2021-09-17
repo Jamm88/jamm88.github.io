@@ -1,0 +1,39 @@
+.portfolio{
+    padding: 20px 0 70px;
+}
+.portfolio h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.card {
+    max-width: 250px;
+  }
+  
+.header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton_visitar {
+    color: #000000
+}
+
+.boton_visitar:hover {
+    color: #c86c00
+}
+
+.header-text{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.header-content{
+    text-align: justify;
+}

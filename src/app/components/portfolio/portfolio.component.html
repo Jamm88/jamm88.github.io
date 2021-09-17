@@ -1,0 +1,29 @@
+<div class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Portafolio</h1>
+                <i>Una muestra de proyectos que he realizado en mi tiempo libre con nuevas tecnolog&iacute;as.</i>
+            </div>
+        </div>
+        <div class="row">
+            <mat-card class="card mx-auto my-2" *ngFor="let proyect of portfolio" style="background-color: rgb(194, 194, 194);">
+                <mat-card-header class="header-text">
+                    <mat-card-title><b>{{ proyect.name }}</b></mat-card-title>
+                    <mat-card-subtitle></mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image [src]="proyect.imageUrl" [alt]="proyect.name">
+                <mat-card-content class="header-content">
+                    <i>{{proyect.description}}</i><br>
+                    <small><b><u>Tecnologias aplicadas:</u></b></small><br>
+                    <span class="badge badge-primary mx-1" *ngFor="let lang of proyect.lenguajes" style="background-color: rgba(204, 192, 27, 0.938);">{{lang.name}} {{lang.version}}</span>
+                    <span class="badge badge-success mx-1" *ngFor="let frame of proyect.frameworks" style="background-color: rgb(224, 126, 44);">{{frame.name}} {{frame.version}}</span>
+                </mat-card-content>
+                <mat-card-actions class="actions">
+                    <b><a [href]="proyect.url" target="_blank" class= "boton_visitar">Visitar</a></b>
+                    <!-- <a [href]="proyect.repoUrl" target="_blank">CODIGO</a> -->
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+</div>

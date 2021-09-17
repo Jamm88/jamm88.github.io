@@ -1,0 +1,29 @@
+<div class="hability-title">
+    <img [src]="hability.language.icon" [alt]="hability.language.name" class="img-thumbnail">
+    <h5>{{ hability.language.name }}  <small *ngIf="hability.language.version !== 0">v.{{ hability.language.version }}</small></h5>
+</div>
+<div *ngFor="let framework of hability.frameworks" class="framework-info">
+    <img [src]="framework.icon" 
+        [alt]="framework.name" 
+        class="img-thumbnail" 
+        [class.react-icon]="framework.name === 'Typescript'" 
+        [class.bootstrap-icon]="framework.name === 'Bootstrap'" 
+        [class.javascript-icon]="framework.name === 'Javascript'" 
+    >
+    <div class="progress my-1">
+        <div 
+            class="progress-bar bg-success" 
+            role="progressbar" 
+            [ngStyle]="{'width': framework.percent +'%'}" 
+            aria-valuenow="25" 
+            aria-valuemin="0" 
+            aria-valuemax="100" 
+            title="{{ framework.name+' v.'+framework.version+' = '+framework.percent+'%' }}"
+            >
+            <p>
+                <span>{{ framework.name }}</span><span *ngIf="framework.version !== 0"> v.{{ framework.version }}</span>
+            </p>
+            <!-- <span class="info-percent">{{ framework.percent +'%' }}</span> -->
+        </div>
+    </div>
+</div>

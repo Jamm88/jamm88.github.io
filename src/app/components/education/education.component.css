@@ -1,0 +1,78 @@
+.fecha-ingreso-egreso{
+    flex-flow: row-reverse;
+}
+.experience{
+    padding: 20px 0 70px;
+}
+.experience-title{
+    margin-bottom: 25px;
+}
+.experience-title h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.experience-title em{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+hr{
+    margin: 0.75em 0 0.75em 0;
+}
+
+.mat-expansion-panel-header[aria-disabled=true], .panel-header-description {
+    color: rgba(0,0,0,.54);
+}
+
+.data-card{
+    margin: 5px 0;
+}
+
+.cert{
+    width: 95px;
+    margin: auto;
+    display: block;
+}
+.text-muted{
+    font-size: 76%;
+}
+.card-body{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+@keyframes scale-up-hor-left {
+    0% {
+      transform: scaleX(0.4);
+      transform-origin: 0% 0%;
+    }
+    100% {
+      transform: scaleX(1);
+      transform-origin: 0% 0%;
+    }
+  }
+
+
+@media (max-width: 600px) {
+    .mat-expansion-panel-header-title{
+        margin-right: 5px !important;
+    }
+    .mat-expansion-panel-header-description{
+        margin-right: 5px !important;
+        text-align: right;
+    }
+    .company-and-date h5{
+        font-size: 1rem;
+    }
+    .percent span{
+        font-size: 0.6em;
+    }
+    h3{
+        margin: 15px 0;
+    }
+    .card-body{
+        text-align: center;
+    }
+}

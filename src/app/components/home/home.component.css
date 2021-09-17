@@ -1,0 +1,39 @@
+.content{
+    vertical-align: middle;
+    padding: 5rem 0;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.round-pic{
+    text-align: center;
+}
+.round-pic img{
+    border-radius: 95px;
+    width: 320px;
+    box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
+}
+.typing{
+    color: rgb(200, 108, 0);
+}
+
+#linkedin_icon{
+    margin-top: 20px;
+    width: 30px;
+}
+
+@media (max-width: 600px) {
+    .info {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .info h1{
+        font-size: 2rem;
+    }
+    .info h2{
+        font-size: 1.5rem;
+    }
+}

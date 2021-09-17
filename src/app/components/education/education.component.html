@@ -1,0 +1,50 @@
+<h3>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">school</mat-icon> 
+    Educaci&oacute;n
+</h3>
+<mat-accordion multi="true">
+    <mat-expansion-panel 
+        *ngFor="let educ of education" 
+        (opened)="panelOpenState = true" 
+        (closed)="panelOpenState = false" 
+        >
+        <mat-expansion-panel-header [collapsedHeight]="'100px'">
+            <mat-panel-title>
+                <div class="company-and-date">
+                    <h5>{{ educ.titulo }}</h5>
+                    <h6>{{ educ.institucion }}</h6>
+                </div>
+            </mat-panel-title>
+            <mat-panel-description class="fecha-ingreso-egreso">
+                <p>{{ educ.fechaFin | date:"MMM-y" }}</p>
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div>
+            <p *ngIf="educ.duracion > 0">Duracion: {{ educ.duracion }}Hrs</p>
+            <a href="{{educ.certificacionUrl}}" target="_blank">
+            Ver Certificaci&oacute;n
+            </a>
+        </div>
+    </mat-expansion-panel>
+</mat-accordion>
+<h3 class="mt-3">
+    <mat-icon aria-hidden="false">star_border</mat-icon> 
+    Certificaciones
+</h3>
+<div *ngFor="let cert of certifications" class="card" style="max-width: 540px;">
+    <div class="row no-gutters">
+        <div class="col-md-3">
+            <a [href]="cert.certificacionUrl" target="_blank" title="Ver Certificación">
+                <img [src]="cert.thumbnails" class="card-img cert" alt="{{ cert.titulo }}">
+            </a>
+        </div>
+        <div class="col-md-9">
+        <div class="card-body p-1">
+            <h5 class="card-title my-0" style="font-size: 16px;">{{ cert.titulo }}</h5>
+            <p class="card-text my-0" style="font-size: 14px;">{{ cert.institucion }}</p>
+            <p *ngIf="cert.duracion > 0" class="card-text my-0"><small class="text-muted">{{ cert.duracion }} horas</small></p>
+            <p class="card-text"><small class="text-muted">{{ cert.fechaFin }}</small></p>
+        </div>
+        </div>
+    </div>
+</div>

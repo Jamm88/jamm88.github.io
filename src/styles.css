@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-html, body { height: 100%; background-color: rgb(24, 26, 27); color: rgb(209, 205, 199);} 
+html, body { height: 100%; background-color: rgb(24, 26, 27); color: rgb(209, 205, 199); } 
 body { 
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+.mat-card {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    color: rgba(232, 230, 227, 0.87);
+}
+.mat-expansion-panel-header-description, .mat-expansion-indicator::after {
+    color: rgba(209,205,199,.54);
 }

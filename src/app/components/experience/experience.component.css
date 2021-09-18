@@ -24,6 +24,12 @@ hr{
 .mat-expansion-panel-header[aria-disabled=true], .panel-header-description {
     color: rgba(0,0,0,.54);
 }
+.mat-expansion-panel-header-title {
+    color: rgb(200 108 0 / 87%);
+}
+.mat-expansion-panel-header-description, .mat-expansion-indicator::after {
+    color: rgb(200 108 0 / 54%);
+}
 .company-and-date{
     display: flex;
     flex-direction: column;
@@ -35,12 +41,12 @@ hr{
     
 } 
 .company-and-date h5{
-    color: rgb(0, 140, 255);
+    color: rgb(200, 108, 0);
 }
 
 .company-and-date h6{
     margin-bottom: 0;
-    color: #4c4c4c;
+    color: #d1cdc7;
 }
 .chronology-list{
     list-style: none;
@@ -79,7 +85,7 @@ hr{
 }
 
 .tecnologies{
-    color: #4b4b4b;
+    color: #d1cdc7;
 }
 .tecnologies ul{
     padding: 0 20px;
@@ -132,7 +138,11 @@ hr{
       transform-origin: 0% 0%;
     }
   }
-
+  .mat-expansion-panel {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    color: rgba(232, 230, 227, 0.87);
+}
 
 @media (max-width: 600px) {
     .mat-expansion-panel-header-title{

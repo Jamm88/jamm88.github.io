@@ -18,11 +18,11 @@
             <mat-panel-description class="fecha-ingreso-egreso">
                 <p>{{ educ.fechaFin | date:"MMM-y" }}</p>
             </mat-panel-description>
-        </mat-expansion-panel-header>
+        </mat-expansion-panel-header><br>
         <div>
             <p *ngIf="educ.duracion > 0">Duracion: {{ educ.duracion }}Hrs</p>
-            <a href="{{educ.certificacionUrl}}" target="_blank">
-            Ver Certificaci&oacute;n
+            <a href="{{educ.certificacionUrl}}" target="_blank" class="boton_certificar">
+            <b><u>Ver Certificaci&oacute;n</u></b>
             </a>
         </div>
     </mat-expansion-panel>

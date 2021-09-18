@@ -4,7 +4,7 @@ import { Injectable } from "@angular/core";
 export class ExperienceService{
     private experience:Experience[] = [
         {
-            empresa:"Arka Consultores",
+            empresa:"Password Technology",
             puesto: "Analista",
             fechaIngreso: "2019-11-05",
             fechaEgreso: "2020-02-03",

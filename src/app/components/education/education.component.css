@@ -22,7 +22,13 @@ hr{
 }
 
 .mat-expansion-panel-header[aria-disabled=true], .panel-header-description {
-    color: rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, 0.54);
+}
+.mat-expansion-panel-header-title {
+    color: rgb(200 108 0 / 87%);
+}
+.mat-expansion-panel-header-description, .mat-expansion-indicator::after {
+    color: rgb(200 108 0 / 54%);
 }
 
 .data-card{
@@ -53,7 +59,19 @@ hr{
       transform-origin: 0% 0%;
     }
   }
-
+  .mat-expansion-panel {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    color: rgba(232, 230, 227, 0.87);
+}
+a {
+    color: #d1cdc7;
+    text-decoration: none;
+    background-color: transparent;
+}
+.boton_certificar:hover{
+    color: #c86c00;
+}
 
 @media (max-width: 600px) {
     .mat-expansion-panel-header-title{

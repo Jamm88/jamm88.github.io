@@ -627,12 +627,12 @@
       var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true); // Module
 
 
-      ___CSS_LOADER_EXPORT___.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\nhtml, body { height: 100%; background-color: rgb(24, 26, 27); color: rgb(209, 205, 199);}\r\nbody { \r\n    margin: 0;\r\n    font-family: 'Montserrat', sans-serif;\r\n}\r\n", "", {
+      ___CSS_LOADER_EXPORT___.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\nhtml, body { height: 100%; background-color: rgb(24, 26, 27); color: rgb(209, 205, 199); }\r\nbody { \r\n    margin: 0;\r\n    font-family: 'Montserrat', sans-serif;\r\n}\r\n.mat-card {\r\n    background-image: initial;\r\n    background-color: rgb(24, 26, 27);\r\n    color: rgba(232, 230, 227, 0.87);\r\n}\r\n.mat-expansion-panel-header-description, .mat-expansion-indicator::after {\r\n    color: rgba(209,205,199,.54);\r\n}\r\n", "", {
         "version": 3,
         "sources": ["webpack://src/styles.css"],
         "names": [],
-        "mappings": "AAAA,8EAA8E;AAC9E,aAAa,YAAY,EAAE,iCAAiC,EAAE,yBAAyB,CAAC;AACxF;IACI,SAAS;IACT,qCAAqC;AACzC",
-        "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\nhtml, body { height: 100%; background-color: rgb(24, 26, 27); color: rgb(209, 205, 199);} \r\nbody { \r\n    margin: 0;\r\n    font-family: 'Montserrat', sans-serif;\r\n}\r\n"],
+        "mappings": "AAAA,8EAA8E;AAC9E,aAAa,YAAY,EAAE,iCAAiC,EAAE,yBAAyB,EAAE;AACzF;IACI,SAAS;IACT,qCAAqC;AACzC;AACA;IACI,yBAAyB;IACzB,iCAAiC;IACjC,gCAAgC;AACpC;AACA;IACI,4BAA4B;AAChC",
+        "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\nhtml, body { height: 100%; background-color: rgb(24, 26, 27); color: rgb(209, 205, 199); } \r\nbody { \r\n    margin: 0;\r\n    font-family: 'Montserrat', sans-serif;\r\n}\r\n.mat-card {\r\n    background-image: initial;\r\n    background-color: rgb(24, 26, 27);\r\n    color: rgba(232, 230, 227, 0.87);\r\n}\r\n.mat-expansion-panel-header-description, .mat-expansion-indicator::after {\r\n    color: rgba(209,205,199,.54);\r\n}\r\n"],
         "sourceRoot": ""
       }]); // Exports
 

@@ -28,8 +28,10 @@
     font-weight: 600;
 }
 #imageProfile{
+    border-radius: 95px;
     width: 100%;
     margin: auto;
+    box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
 }
 .bio-details{
     list-style: none;
@@ -61,7 +63,9 @@
     background-color: rgb(24, 86, 202);
     color: #fff;
 }
-
+.mat-icon {
+    color: #c86c00;
+}
 @media (max-width:600px){
     .bio-details li{
         padding: 2px 0;

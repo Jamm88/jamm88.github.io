@@ -74,7 +74,7 @@
         selectors: [["app-about"]],
         decls: 65,
         vars: 3,
-        consts: [[1, "about"], [1, "container"], [1, "row"], [1, "col-md"], [1, "blue-color"], [1, "col-md-4"], ["id", "imageProfile", "src", "/assets/img/perfil_jm.JPG", "alt", "Jos\xE9 Angel Martinez"], [1, "col-md-8", "bio"], [1, "col-sm-12", "col-md-6"], [1, "bio-details"], ["aria-hidden", "false", "aria-label", "Example home icon"], [1, "opc_descarga"], ["mat-raised-button", "", "color", "pdf", "href", "https://drive.google.com/file/d/1C3ORDJGsGbMhK34bvL2KkgyCvyS3apYv/view?usp=sharing", "target", "_blank", 1, "download_button"], ["mat-raised-button", "", "color", "word", "href", "https://drive.google.com/file/d/1RkhjZu0Rl7Suil5ip63fai7Fc9_JRcDK/view?usp=sharing", "target", "_blank", 1, "download_button"]],
+        consts: [[1, "about"], [1, "container"], [1, "row"], [1, "col-md"], [1, "blue-color"], [1, "col-md-4"], ["id", "imageProfile", "src", "/assets/img/perfil_me2.jpg", "alt", "Jos\xE9 Angel Martinez"], [1, "col-md-8", "bio"], [1, "col-sm-12", "col-md-6"], [1, "bio-details"], ["aria-hidden", "false", "aria-label", "Example home icon"], [1, "opc_descarga"], ["mat-raised-button", "", "color", "pdf", "href", "https://drive.google.com/file/d/1C3ORDJGsGbMhK34bvL2KkgyCvyS3apYv/view?usp=sharing", "target", "_blank", 1, "download_button"], ["mat-raised-button", "", "color", "word", "href", "https://drive.google.com/file/d/1RkhjZu0Rl7Suil5ip63fai7Fc9_JRcDK/view?usp=sharing", "target", "_blank", 1, "download_button"]],
         template: function AboutComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1586,7 +1586,7 @@
         selectors: [["app-home"]],
         decls: 15,
         vars: 5,
-        consts: [[1, "content"], [1, "container"], [1, "row"], [1, "col-md", "info"], [3, "strings", "typeSpeed", "backSpeed", "loop"], [1, "typing"], ["href", "https://www.linkedin.com/in/josea-martinezm", "target", "_blank"], ["id", "linkedin_icon", "src", "/assets/img/linkedin.svg", "alt", "LinkedIn"], [1, "col-md"], [1, "round-pic"], ["src", "/assets/img/perfil_jm.JPG", "alt", "Jos\xE9 Angel Martinez"]],
+        consts: [[1, "content"], [1, "container"], [1, "row"], [1, "col-md", "info"], [3, "strings", "typeSpeed", "backSpeed", "loop"], [1, "typing"], ["href", "https://www.linkedin.com/in/josea-martinezm", "target", "_blank"], ["id", "linkedin_icon", "src", "/assets/img/linkedin.svg", "alt", "LinkedIn"], [1, "col-md"], [1, "round-pic"], ["src", "/assets/img/perfil_me.jpg", "alt", "Jos\xE9 Angel Martinez"]],
         template: function HomeComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);

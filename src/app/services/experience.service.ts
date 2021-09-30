@@ -5,7 +5,7 @@ export class ExperienceService{
     private experience:Experience[] = [
         {
             empresa:"Password Technology",
-            puesto: "Analista",
+            puesto: "Desarrollador Web",
             fechaIngreso: "2019-11-05",
             fechaEgreso: "2020-02-03",
             proyectos:[],
@@ -61,7 +61,7 @@ export class ExperienceService{
         },
         {
             empresa:"Ministerio del Poder Popular para el Comercio",
-            puesto: "Analista de Sistemas 1",
+            puesto: "Desarrollador Web",
             fechaIngreso: "2011-04-01",
             fechaEgreso: "2012-06-01",
             proyectos:[],

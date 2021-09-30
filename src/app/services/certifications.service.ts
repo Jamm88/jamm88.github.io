@@ -6,6 +6,15 @@ import { Injectable } from '@angular/core';
 export class CertificationsService {
 
   certifications:Certification[]=[
+    {
+      titulo:"Responsive Web Desing",
+      institucion:"FreeCodeCamp.org",
+      fechaInicio:"2018-01-01",
+      fechaFin:"2021-09-30",
+      certificacionUrl:"https://www.freecodecamp.org/certification/joseamartinez/responsive-web-design",
+      duracion:300,
+      thumbnails:'/assets/img/certs/thumbnails/certification-responsive_web_design.jpg'
+    },
     /*{
       titulo:"Liquibase Fundamentals Certification",
       institucion:"Liquibase University",
@@ -64,15 +73,6 @@ export class CertificationsService {
       certificacionUrl:"https://www.freecodecamp.org/certification/jesuseduaardo/javascript-algorithms-and-data-structures",
       duracion:300,
       thumbnails:'/assets/img/certs/thumbnails/fcc-javascript_algorithms_tn.jpg'
-    },
-    {
-      titulo:"Responsive Web Desing",
-      institucion:"FreeCodeCamp.org",
-      fechaInicio:"2018-01-01",
-      fechaFin:"2018-08-01",
-      certificacionUrl:"https://www.freecodecamp.org/certification/jesuseduaardo/responsive-web-design",
-      duracion:300,
-      thumbnails:'/assets/img/certs/thumbnails/fcc-resposive_web_design_tn.jpg'
     },
     {
       titulo:"ReactJS",

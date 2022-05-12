@@ -84,7 +84,7 @@
         selectors: [["app-about"]],
         decls: 64,
         vars: 8,
-        consts: [[1, "about"], [1, "container"], [1, "row"], [1, "col-md"], [3, "strings", "typeSpeed", "backSpeed", "loop"], [1, "typing"], [1, "col-md-4"], ["id", "imageProfile", "src", "/assets/img/perfil_me2.jpg", "alt", "Jos\xE9 Angel Martinez"], [1, "col-md-8", "bio"], [1, "col-sm-12", "col-md-6"], [1, "bio-details"], ["aria-hidden", "false", "aria-label", "Example home icon"], [1, "opc_descarga"], ["mat-raised-button", "", "color", "pdf", "href", "https://drive.google.com/file/d/1kUvs8BJqvV7FPP-OIUQAjDotMH0X1_vx/view?usp=sharing", "target", "_blank", 1, "download_button"], ["mat-raised-button", "", "color", "word", "href", "https://drive.google.com/file/d/1uVYpaCUmRGNEWIC0zncWZ2ZrAbD4UXMd/view?usp=sharing", "target", "_blank", 1, "download_button"]],
+        consts: [[1, "about"], [1, "container"], [1, "row"], [1, "col-md"], [3, "strings", "typeSpeed", "backSpeed", "loop"], [1, "typing"], [1, "col-md-4"], ["id", "imageProfile", "src", "/assets/img/perfil_me2.jpg", "alt", "Jos\xE9 Angel Martinez"], [1, "col-md-8", "bio"], [1, "col-sm-12", "col-md-6"], [1, "bio-details"], ["aria-hidden", "false", "aria-label", "Example home icon"], [1, "opc_descarga"], ["mat-raised-button", "", "color", "pdf", "href", "https://drive.google.com/file/d/1IdAMs_xPIstPpzUOpt5cdjT9dxbFIOFC/view?usp=sharing", "target", "_blank", 1, "download_button"], ["mat-raised-button", "", "color", "word", "href", "https://drive.google.com/file/d/157jm0Efkpr0_VDvw12NTr2aH0lxRyf0U/view?usp=sharing", "target", "_blank", 1, "download_button"]],
         template: function AboutComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -2269,7 +2269,7 @@
           _classCallCheck(this, ExperienceService);
 
           this.experience = [{
-            empresa: "Password Technology",
+            empresa: "Emeneger S.A",
             puesto: "Desarrollador Web",
             fechaIngreso: "2019-11-05",
             fechaEgreso: "2020-02-03",
